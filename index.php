@@ -18,5 +18,7 @@
     <h1 class="display-1">Hello World</h1>
 
     <?php include "public/includes/carousel.php" ?>
+    
+    <?php include "public/includes/login-modal.php" ?>
 
 <?php require "public/includes/footer.php" ?>

@@ -16,3 +16,7 @@ footer {
     max-height: 400px; /* Altura máxima do carrossel*/
     margin: auto; /* Centraliza o carrossel na página */
 }
+
+#searchInput {
+    text-align: right;
+}

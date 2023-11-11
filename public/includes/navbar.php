@@ -16,12 +16,16 @@
           <a class="nav-link" href="#">Products</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Login</a>
+          <button type="button" class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">Sign-in</button>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
+      <form class="d-flex" role="search" id="searchInput">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
   </div>
 </nav>
