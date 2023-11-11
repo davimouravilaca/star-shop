@@ -15,10 +15,17 @@
 
 <!-- Content goes here -->    
 
-    <h1 class="display-1">Hello World</h1>
+    <h3 class="display-1">Hello World</h3>
 
     <?php include "public/includes/carousel.php" ?>
     
     <?php include "public/includes/login-modal.php" ?>
+
+    <div class="container-fluid p-3"> 
+    <h2 class="display-3"> Our Products</h2>
+    <p class=lead><strong>See our collection of amazing products designed just to you:</strong></p>
+    </div>
+
+    <?php include "public/includes/card-carousel.php"?>
 
 <?php require "public/includes/footer.php" ?>
