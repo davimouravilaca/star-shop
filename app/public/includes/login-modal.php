@@ -8,7 +8,6 @@
       </div>
       <div class="modal-body">
         
-      <form action="" method="post">
       <div class="mb-3 row">
         <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
         <div class="col-sm-10">
@@ -21,12 +20,12 @@
             <input type="password" class="form-control" id="inputPassword">
         </div>
         </div>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <input type="submit" class="btn btn-primary" value="Login">
+        <button id="loginButton" type="button" class="btn btn-primary">Login</button>
       </div>
-      </form>
     </div>
   </div>
 </div>

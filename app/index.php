@@ -15,7 +15,7 @@
 
 <!-- Content goes here -->    
 
-    <h3 class="display-1">Hello World</h3>
+    <h1 class="display-1">Hello World</h1>
 
     <?php include "public/includes/carousel.php" ?>
     
@@ -23,9 +23,7 @@
 
     <div class="container-fluid p-3"> 
     <h2 class="display-3"> Our Products</h2>
-    <p class=lead><strong>See our collection of amazing products designed just to you:</strong></p>
+    <p class=lead><strong>See our collection of amazing products selected just for you:</strong></p>
     </div>
-
-    <?php include "public/includes/card-carousel.php"?>
 
 <?php require "public/includes/footer.php" ?>
