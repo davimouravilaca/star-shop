@@ -26,4 +26,6 @@
     <p class=lead><strong>See our collection of amazing products selected just for you:</strong></p>
     </div>
 
+    <?php include "public/includes/cards.php" ?>
+
 <?php require "public/includes/footer.php" ?>
