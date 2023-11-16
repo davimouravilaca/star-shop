@@ -11,11 +11,17 @@
     require "public/includes/header.php";
 
 
+    if (isset($_SESSION['name'])){
+        $welcomePhrase = 'Hello' . $_SESSION['name'];
+    }
+    else {
+    $welcomePhrase = 'Hello World';
+    }
 ?>
 
 <!-- Content goes here -->    
 
-    <h1 class="display-1">Hello World</h1>
+    <h1 class="display-1"><?=$welcomePhrase?></h1>
 
     <?php include "public/includes/carousel.php" ?>
     
@@ -29,3 +35,4 @@
     <?php include "public/includes/cards.php" ?>
 
 <?php require "public/includes/footer.php" ?>
+</div>

@@ -1,5 +1,5 @@
 <?php 
-    $cardImg = "https://placehold.co/300x200?text=Hello";
+    $cardImg = "https://placehold.co/300x400?text=Hello";
     
     $cardTitle = "Product Title";
 
@@ -24,18 +24,17 @@ for ($i=0; $i < 6; $i++) {
   echo 
   "<div class='col'>
   <div class='card'>
-    <img src= $cardImg class='card-img-top' alt='$cardAlt'>
+    <a href='#'><img src=$cardImg class='card-img-top' alt='$cardAlt'></a>
     <div class='card-body'>
       <h5 class='card-title'>$cardTitle</h5>
       <p class='card-text'>$cardText</p>
-      <a href='$cardLink' class='btn btn-sm btn-primary'>Go somewhere</a>
     </div>
   </div>
   </div>";
 }
 echo "</div>
 <br>
-<p>Collection: <strong>$collection</strong></p>
+<p>Collection: <strong><a class='h6'href='#'>$collection</strong></a></p>
 </div>";
 }
 ?>
